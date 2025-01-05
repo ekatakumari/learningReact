@@ -1,0 +1,15 @@
+.faq-component{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width:500px;
+    height: 600px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+.faq-question-answer{
+    background-color: rgb(253, 248, 248);
+    color: black;
+    margin:10px;
+
+}
