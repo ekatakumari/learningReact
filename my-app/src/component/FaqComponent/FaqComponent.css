@@ -11,10 +11,17 @@
     background-color: rgb(241, 190, 190);
     color: black;
     margin:10px;
+    border-radius:10px;
 
+}
+.faq-heading{
+    margin-left:30%;
 }
 .answer{
     padding:10px;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
 }
 .arrow-button {
     display: inline-block;
