@@ -4,12 +4,52 @@
     border: 1px solid black;
     width:500px;
     height: 600px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
     margin: auto;
 }
 .faq-question-answer{
-    background-color: rgb(253, 248, 248);
+    background-color: rgb(241, 190, 190);
     color: black;
     margin:10px;
 
 }
+.answer{
+    padding:10px;
+}
+.arrow-button {
+    display: inline-block;
+    position: relative;
+    padding: 5px; /* Reduced padding for a smaller button */
+    color: white;
+    background-color: rgb(241, 190, 190);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px; /* Smaller font size */
+    border-radius: 4px; /* Optional: Add a rounded border for the button */
+  }
+  
+  .arrow-button::after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: 5px; /* Adjusted the arrow's position for smaller size */
+    transform: translateY(-50%);
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px; /* Smaller padding for the arrow */
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-button.rotate {
+    transform: rotate(90deg);
+  }
+  .question{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    gap:10px;
+  }

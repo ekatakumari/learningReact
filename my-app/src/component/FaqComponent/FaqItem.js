@@ -14,11 +14,11 @@ const FaqItem = ({ faq, index }) => {
     <div>
       <div className="faq-question-answer">
         <div className="question">
-          <span>{faq.question}</span>
-          <button onClick={handleToggle}></button>
+         <div>{faq.question}</div>
+          <button className={`arrow-button ${isShow ? "rotate" : ""}`}  onClick={handleToggle}></button>
         </div>
         <div className="answer">
-         {isShow && <span>{faq.answer}</span>}
+         {isShow && <div>{faq.answer}</div>}
         </div>
       </div>
     </div>
