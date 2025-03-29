@@ -7,6 +7,7 @@ import Project from "./pages/Project/Project";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import FaqComponent from "./component/FaqComponent/FaqComponent";
 import { TwoFactorVerification } from "./component/TwoFactorVerification/TwoFactorVerification";
+import { JobBoard } from "./component/JobBoard/JobBoard";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<AboutUs/>}/>
         <Route path="/faq" element={<FaqComponent/>}/>
         <Route path="/otp" element={<TwoFactorVerification/>}/>
+        <Route path="/job-board" element={<JobBoard/>} />
       </Routes>
     </div>
   );
