@@ -10,9 +10,6 @@ export const JobBoard=()=>{
           const response=await data.json()
           console.log(response)
     }
-    const fetchData=()=>{
-        
-    }
    return <div className="job-board">
     <div className="container">
             
