@@ -9,6 +9,7 @@ import FaqComponent from "./component/FaqComponent/FaqComponent";
 import { TwoFactorVerification } from "./component/TwoFactorVerification/TwoFactorVerification";
 import { JobBoard } from "./component/JobBoard/JobBoard";
 import AutoComplete from "./component/AutoComplete/AutoComplete";
+import Pagignation from "./component/Pagignation/Pagignation"
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path="/otp" element={<TwoFactorVerification/>}/>
         <Route path="/job-board" element={<JobBoard/>} />
         <Route path="/autocomplete" element={<AutoComplete/>}/>
+        <Route path="/pagignation" element={<Pagignation/>}/>
       </Routes>
     </div>
   );
