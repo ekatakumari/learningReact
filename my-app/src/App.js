@@ -9,7 +9,8 @@ import FaqComponent from "./component/FaqComponent/FaqComponent";
 import { TwoFactorVerification } from "./component/TwoFactorVerification/TwoFactorVerification";
 import { JobBoard } from "./component/JobBoard/JobBoard";
 import AutoComplete from "./component/AutoComplete/AutoComplete";
-import Pagignation from "./component/Pagignation/Pagignation"
+import Pagignation from "./component/Pagignation/Pagignation";
+import FileFolder from "./component/FileFolder/FileFolder"
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <Route path="/job-board" element={<JobBoard/>} />
         <Route path="/autocomplete" element={<AutoComplete/>}/>
         <Route path="/pagignation" element={<Pagignation/>}/>
+        <Route path="/filefolder" element={<FileFolder/>}/>
       </Routes>
     </div>
   );

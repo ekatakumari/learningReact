@@ -1,0 +1,54 @@
+[
+    {
+      "name": "public",
+      "isFolder": true,
+      "id": "1",
+      "children": [
+        {
+          "name": "index.html",
+          "isFolder": false,
+          "id": "2",
+          "children": []
+        },
+        {
+          "name": "manifest.json",
+          "isFolder": false,
+          "id": "3",
+          "children": []
+        },
+        {
+          "name": "favicon.io",
+          "isFolder": false,
+          "id": "4",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "isFolder": true,
+      "id": "5",
+      "children": [
+        {
+          "name": "compponent",
+          "isFolder": true,
+          "id": "6",
+          "children": [
+            {
+              "name": "new",
+              "isFolder": false,
+              "id": "7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "pagignation",
+          "isFolder": true,
+          "id": "8",
+          "children": []
+        }
+      ]
+    }
+  ]
+  

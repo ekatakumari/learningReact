@@ -1,0 +1,13 @@
+.file-folder-list{
+    display:flex;
+    border:1px solid black;
+    margin:auto;
+    max-width:300px;
+    padding:10px;
+}
+.file-name{
+    padding:10px;
+    max-width:200px;
+    border:1px solid rgb(227, 227, 239);
+    margin:5px;
+}
