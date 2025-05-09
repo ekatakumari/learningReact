@@ -17,6 +17,7 @@ const FileList = ({ list,handleAddItem }) => {
                         }} src="https://static.thenounproject.com/png/1123247-200.png" /></span>}
                         <span >{data.name}</span>
                        {data.isFolder &&  <span  onClick={()=>handleAddItem(data.id)}><img style={{width:"10px",marginLeft:"5px",cursor:"pointer"}} src="https://cdn-icons-png.flaticon.com/512/3979/3979527.png"/></span>}
+                       <span><img src="https://cdn-icons-png.flaticon.com/512/3161/3161358.png" style={{width:"10px",marginLeft:"5px",cursor:"pointer"}}/></span>
                         {isToggle[data.name] && data.children.length > 0 && <FileList handleAddItem={handleAddItem} list={data.children} />}
                     </div>
                 ))}
