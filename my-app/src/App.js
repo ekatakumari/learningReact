@@ -10,7 +10,8 @@ import { TwoFactorVerification } from "./component/TwoFactorVerification/TwoFact
 import { JobBoard } from "./component/JobBoard/JobBoard";
 import AutoComplete from "./component/AutoComplete/AutoComplete";
 import Pagignation from "./component/Pagignation/Pagignation";
-import FileFolder from "./component/FileFolder/FileFolder"
+import FileFolder from "./component/FileFolder/FileFolder";
+import ImageSlider from "./component/ImageSlider/ImageSlider"
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
         <Route path="/autocomplete" element={<AutoComplete/>}/>
         <Route path="/pagignation" element={<Pagignation/>}/>
         <Route path="/filefolder" element={<FileFolder/>}/>
+        <Route path="/imageSlider" element={<ImageSlider/>}/>
       </Routes>
     </div>
   );
