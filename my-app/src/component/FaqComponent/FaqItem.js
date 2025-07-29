@@ -23,7 +23,10 @@ const FaqItem = ({ faq, index }) => {
         </div>
         {isShow && (
           <div className="answer">
-           <img style={{width:"20px",height:"20px"}}src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJg6AN9J3CbverblDw1pHq7vZpkaicPMQ_sg&s"/>
+            <img
+              style={{ width: "20px", height: "20px" }}
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJg6AN9J3CbverblDw1pHq7vZpkaicPMQ_sg&s"
+            />
             <div>{faq.answer}</div>
           </div>
         )}
