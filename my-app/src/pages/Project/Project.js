@@ -12,8 +12,8 @@ const linkItem = [
     route: "/otp",
   },
   {
-    name: "faq",
-    route: "/faq",
+    name: "Job Board",
+    route: "/job-board",
   },
   {
     name: "faq",

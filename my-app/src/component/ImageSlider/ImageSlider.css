@@ -1,0 +1,30 @@
+.image-slider-url {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.image-slider-container {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.crousel-button {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    border:none;
+    width:40px;
+    height:40px;
+    background:transparent;
+    background-color:rgb(165, 60, 76);
+    border-radius:50%;
+}
+.image-crousel-box{
+    margin:10px;
+    text-align:center;
+}
